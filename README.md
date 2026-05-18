@@ -117,4 +117,3 @@ SELECT COUNT(*) FROM salaries;   -- expected: 2400
 | `salary.csv` | 2400 monthly salary records (100 employees x 24 months) |
 | `setup_tables.sql` | DDL: database, tables, stage, and data loading |
 | `streamlit_app.py` | Streamlit chatbot app using Cortex Analyst |
-| `szkolenie_snowflake_1h.md` | Full 1-hour training scenario with exercises |
