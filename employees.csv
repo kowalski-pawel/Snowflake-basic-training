@@ -1,0 +1,101 @@
+id,first_name,last_name,department,position,hire_date
+1,Anna,Kowalska,IT,Developer,2021-03-15
+2,Jan,Nowak,HR,HR Specialist,2020-07-01
+3,Maria,Wisniewska,IT,Senior Developer,2019-11-20
+4,Piotr,Zielinski,Finance,Financial Analyst,2022-01-10
+5,Katarzyna,Dabrowska,HR,Recruiter,2021-09-05
+6,Tomasz,Lewandowski,IT,Tech Lead,2018-06-12
+7,Agnieszka,Wojcik,Finance,Accountant,2023-02-28
+8,Marek,Kaminski,IT,DevOps Engineer,2020-04-17
+9,Ewa,Szymanska,HR,HR Manager,2022-08-30
+10,Robert,Jankowski,Finance,Controller,2019-05-22
+11,Monika,Wozniak,IT,QA Engineer,2021-01-11
+12,Krzysztof,Kozlowski,Sales,Account Manager,2020-03-05
+13,Joanna,Mazur,Marketing,Content Specialist,2022-06-15
+14,Andrzej,Krawczyk,IT,Backend Developer,2019-09-01
+15,Magdalena,Piotrowska,Finance,Financial Analyst,2021-07-20
+16,Lukasz,Grabowski,Sales,Sales Manager,2018-11-08
+17,Aleksandra,Pawlak,Marketing,Marketing Manager,2020-02-14
+18,Michal,Zajac,IT,Frontend Developer,2022-04-01
+19,Natalia,Krol,HR,HR Specialist,2021-12-10
+20,Damian,Wieczorek,IT,Data Engineer,2020-08-25
+21,Karolina,Stepien,Finance,Accountant,2023-01-15
+22,Pawel,Adamczyk,Sales,Account Manager,2019-06-30
+23,Beata,Dudek,Marketing,Graphic Designer,2021-05-18
+24,Grzegorz,Zak,IT,System Administrator,2018-03-22
+25,Iwona,Kolodziej,HR,Recruiter,2022-09-12
+26,Rafal,Szewczyk,IT,Senior Developer,2019-01-07
+27,Dorota,Wlodarczyk,Finance,Financial Analyst,2020-11-30
+28,Marcin,Rutkowski,Sales,Sales Representative,2021-08-05
+29,Sylwia,Sikora,Marketing,SEO Specialist,2022-03-20
+30,Artur,Ostrowski,IT,DevOps Engineer,2020-01-14
+31,Justyna,Walczak,HR,HR Business Partner,2019-04-25
+32,Kamil,Baran,IT,Developer,2021-10-01
+33,Renata,Szczepanska,Finance,Controller,2018-07-19
+34,Wojciech,Sawicki,Sales,Key Account Manager,2020-05-11
+35,Malgorzata,Kaczmarek,Marketing,Social Media Manager,2022-11-28
+36,Adrian,Lis,IT,Cloud Engineer,2021-02-08
+37,Teresa,Maciejewska,Finance,Accountant,2019-12-03
+38,Sebastian,Kubiak,IT,Architect,2017-09-15
+39,Patrycja,Kalinowska,HR,HR Specialist,2022-07-22
+40,Dariusz,Mazurek,Sales,Sales Representative,2021-04-14
+41,Agata,Kwiatkowska,Marketing,Content Specialist,2020-10-06
+42,Jakub,Wysocki,IT,Data Scientist,2022-01-25
+43,Barbara,Adamska,Finance,Financial Analyst,2019-08-17
+44,Tomasz,Kazmierczak,IT,QA Engineer,2021-06-09
+45,Elzbieta,Wasilewska,HR,Training Specialist,2020-12-21
+46,Mariusz,Sobczak,Sales,Account Manager,2018-05-03
+47,Weronika,Czerwinska,Marketing,Marketing Analyst,2022-08-14
+48,Bartosz,Olszewski,IT,Frontend Developer,2021-03-27
+49,Izabela,Stasiak,Finance,Accountant,2020-09-08
+50,Daniel,Sadowski,IT,Backend Developer,2019-02-19
+51,Aneta,Bak,HR,Recruiter,2022-05-30
+52,Konrad,Pietrzak,Sales,Sales Manager,2020-06-12
+53,Paulina,Wrona,Marketing,Graphic Designer,2021-11-04
+54,Szymon,Zalewski,IT,Developer,2022-02-17
+55,Lidia,Jablonska,Finance,Controller,2019-10-28
+56,Mateusz,Wozniak,IT,Cloud Engineer,2021-01-22
+57,Gabriela,Marciniak,HR,HR Manager,2018-08-14
+58,Radoslaw,Jaworski,Sales,Key Account Manager,2020-04-07
+59,Dominika,Zawadzka,Marketing,Brand Manager,2022-10-19
+60,Filip,Chmielewski,IT,Security Engineer,2021-07-31
+61,Katarzyna,Borkowska,Finance,Financial Analyst,2020-01-25
+62,Piotr,Blaszczyk,IT,Tech Lead,2018-12-09
+63,Martyna,Nowicka,HR,HR Specialist,2022-04-15
+64,Adam,Pluta,Sales,Sales Representative,2021-09-23
+65,Olga,Kowalczyk,Marketing,Content Specialist,2020-07-18
+66,Hubert,Wrobel,IT,Data Engineer,2019-03-11
+67,Julia,Kaczmarczyk,Finance,Accountant,2022-12-05
+68,Norbert,Goralczyk,IT,DevOps Engineer,2021-05-28
+69,Klaudia,Pawlowska,HR,Recruiter,2020-11-14
+70,Tadeusz,Witkowski,Sales,Account Manager,2019-07-06
+71,Aleksandra,Walkowiak,Marketing,SEO Specialist,2022-06-20
+72,Bartlomiej,Sikora,IT,Senior Developer,2018-04-30
+73,Zuzanna,Rutkowska,Finance,Financial Analyst,2021-08-12
+74,Cezary,Michalak,Sales,Sales Representative,2020-02-26
+75,Wioletta,Szymczak,HR,Training Specialist,2022-09-07
+76,Dawid,Wieczorek,IT,Developer,2021-04-19
+77,Edyta,Urbaniak,Marketing,Marketing Analyst,2020-08-03
+78,Igor,Tomczak,IT,Backend Developer,2019-06-15
+79,Natalia,Piekarska,Finance,Controller,2022-03-11
+80,Przemyslaw,Gorski,Sales,Key Account Manager,2018-10-24
+81,Milena,Jastrzebska,HR,HR Business Partner,2021-12-06
+82,Oskar,Dudek,IT,QA Engineer,2020-05-19
+83,Diana,Polak,Marketing,Social Media Manager,2022-07-31
+84,Wiktor,Musial,IT,System Administrator,2019-11-08
+85,Kinga,Ciesielska,Finance,Accountant,2021-02-22
+86,Patryk,Nowicki,Sales,Account Manager,2020-09-15
+87,Urszula,Wroblewska,HR,HR Specialist,2022-11-03
+88,Maciej,Kania,IT,Cloud Engineer,2021-06-27
+89,Ewelina,Krajewska,Marketing,Graphic Designer,2020-03-10
+90,Stefan,Gajewski,IT,Architect,2017-12-18
+91,Nikola,Tomczyk,Finance,Financial Analyst,2022-08-24
+92,Jacek,Jasinski,Sales,Sales Manager,2019-04-05
+93,Sara,Bednarek,HR,Recruiter,2021-10-17
+94,Dominik,Marciniak,IT,Data Scientist,2022-05-09
+95,Helena,Duda,Marketing,Brand Manager,2020-06-28
+96,Arkadiusz,Pawlik,IT,Security Engineer,2021-03-04
+97,Wanda,Gorska,Finance,Controller,2019-09-20
+98,Leszek,Kaczor,Sales,Sales Representative,2022-01-13
+99,Ola,Zakrzewska,HR,HR Manager,2020-10-31
+100,Krystian,Sadowski,IT,Frontend Developer,2021-11-15
