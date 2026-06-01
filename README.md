@@ -26,7 +26,7 @@
 
 1. Go to **Databases** → `TRAINING_DB` → `DEMO` → **Tables**
 2. Click `EMPLOYEES` → **Load Data** (top-right)
-3. Select `employee.csv`, set format: CSV, skip header = 1
+3. Select `employee.csv`, set format: CSV
 4. Click **Load**
 5. Repeat for `SALARIES` table using `salary.csv`
 
