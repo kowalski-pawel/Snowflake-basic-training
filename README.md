@@ -1,4 +1,4 @@
-# Snowflake Basics Training - Setup Guide
+# Snowflake Basics Training - Workshop Setup Guide
 
 ## Prerequisites
 
@@ -57,39 +57,27 @@ SELECT COUNT(*) FROM salaries;   -- expected: 2400
 
 ## Step 3: Create the Semantic View via Snowsight UI
 
-1. In Snowsight, go to **AI & ML** → **Semantic Views**
-2. Click **+ Semantic View**
+1. In Snowsight, go to **AI & ML** → **Analyst**
+2. Click **+ Create with Autopilot**
 3. Set the name: `TRAINING_SEMANTIC_VIEW`
 4. Set the database/schema: `TRAINING_DB` → `DEMO`
-5. **Add tables:**
-   - Click **Add Table** → select `TRAINING_DB.DEMO.EMPLOYEES`
-   - Click **Add Table** → select `TRAINING_DB.DEMO.SALARIES`
-6. **Configure columns for `EMPLOYEES`:**
-   - `ID` — mark as **Primary Key**, comment: `Unique employee identifier`
-   - `FIRST_NAME` — comment: `Employee first name`
-   - `LAST_NAME` — comment: `Employee last name`
-   - `DEPARTMENT` — comment: `Department: IT, HR, Finance, Sales, Marketing`
-   - `POSITION` — comment: `Employee job title`
-   - `HIRE_DATE` — comment: `Hire date`
-7. **Configure columns for `SALARIES`:**
-   - `EMPLOYEE_ID` — comment: `Employee ID (foreign key)`
-   - `YEAR` — comment: `Payment year (2024 or 2025)`
-   - `MONTH` — comment: `Payment month (1-12)`
-   - `GROSS_AMOUNT` — mark as **Metric**, set Default Aggregation = `avg`, comment: `Gross salary in PLN`
-8. **Add relationship:**
-   - Click **Add Relationship**
-   - Name: `employee_salaries`
-   - Left table: `EMPLOYEES`, column: `ID`
-   - Right table: `SALARIES`, column: `EMPLOYEE_ID`
-9. Click **Create**
+5. **Select Tables:**
+   - Click `TRAINING_DB` → `DEMO`
+      → select `TRAINING_DB.DEMO.EMPLOYEES`
+      → select `TRAINING_DB.DEMO.SALARIES`
+   - Click `Next`
+6. Select all colums from both tables
+7. Click **Create**
+8. 
 
 ---
 
 ## Step 4: Test with Cortex Analyst
 
-1. In Snowsight, go to **AI & ML** → **Cortex Analyst**
+1. In Snowsight, go to **AI & ML** → **Analyst**
 2. Select semantic view: `TRAINING_DB.DEMO.TRAINING_SEMANTIC_VIEW`
-3. Ask questions in natural language, e.g.:
+3. Go to `Playground` - almost top-rigth corner
+4. Ask questions in natural language, e.g.:
    - "How many employees are in each department?"
    - "Who earns the most?"
    - "Show average salary by department"
